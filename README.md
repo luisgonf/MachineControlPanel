@@ -22,8 +22,10 @@ The backend is built with Python using FastAPI. Temperature is obtained with Ope
 
 2. From the project root, in the terminal run: 
 
+```bash
 uv sync
 uv run fastapi dev ./Backend/MachineControl.py --port 8001
+```
 
 The backend will run on: http://127.0.0.1:8001
 
@@ -31,9 +33,11 @@ The backend will run on: http://127.0.0.1:8001
 
 3. On a new terminal: 
 
+```bash
 cd Frontend
 npm install
 npm run dev
+```
 
 The front end will run on: http://localhost:5173
 
